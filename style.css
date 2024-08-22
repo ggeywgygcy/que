@@ -18,7 +18,7 @@
     background: linear-gradient(45deg, rgba(2,0,36,1) 34%, rgba(0,212,255,1) 100%, rgba(78,95,105,1) 100%);
 }
 
-#vvod{
+#vvod1{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -39,7 +39,6 @@
         border-color: rgb(41, 94, 193);
     }
     #otpravka{
-        /* margin-top: 1px; */
         width: 200px;
         height: 30%;
         font-size: 13px;
@@ -49,3 +48,10 @@
         border-color: rgb(56, 56, 126);
     }
 }
+/* #asm{
+    margin-top: ;
+    margin-left: 660px;
+    opacity: 0.8;
+    position: static;
+} */
+
