@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: url(imgs/001763492.jpg);
+    height: 100vh;
+}
+
+#vopros{
+    border-radius: 10;
+    margin-top: 50px;
+    margin-left: 25px;
+    width: 300px;
+    font-family: 'Noto Sans';
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 34%, rgba(0,212,255,1) 100%, rgba(78,95,105,1) 100%);
+}
+
+#vvod{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Noto Sans';
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 34%, rgba(0,212,255,1) 100%, rgba(78,95,105,1) 100%);
+    #vvodt{
+        border-radius: 1;
+        width: 210px;
+        height: 30%;
+        margin-top: 5px;
+        border: 1;
+        border-color: rgb(41, 94, 193);
+    }
+    #otpravka{
+        /* margin-top: 1px; */
+        width: 200px;
+        height: 30%;
+        font-size: 13px;
+        border-radius: 0;
+        background: rgb(0,0,0);
+        background: linear-gradient(211deg, rgba(0,0,0,1) 0%, rgba(167,170,171,1) 100%);
+        border-color: rgb(56, 56, 126);
+    }
+}
