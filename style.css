@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 .bg{
-    background: url(imgs/001763492.jpg);
+    background: url(imgs/eact.jpg) ;
     height: 100vh;
 }
 
@@ -47,6 +49,35 @@
         background: linear-gradient(211deg, rgba(0,0,0,1) 0%, rgba(167,170,171,1) 100%);
         border-color: rgb(56, 56, 126);
     }
+}
+#vopross{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border-radius: 0;
+    background: rgb(131,58,180);
+    background: linear-gradient(257deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 68%, rgba(252,176,69,1) 100%);
+    margin-top: 3px;
+    margin-left: 25px;
+    #vvodtvop{
+        border-radius: 0;
+        width: 280px;
+        margin-left: 10px;
+
+    }
+}
+
+#inf{
+    font-family: 'Moderustic';
+    background-color: blueviolet;
+    margin-bottom: auto;
+    #punkti{
+        color: cornsilk;
+    }
+    #h4{
+        color:rgb(255, 247, 213);
+    }
+
 }
 /* #asm{
     margin-top: ;
